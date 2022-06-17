@@ -27,7 +27,7 @@ public class FileServer {
     }
 
     public void stop() {
-        LOG.info("stash1: Spring file server demo stopped");
+        LOG.info("stash2: Spring file server demo stopped");
         if (context != null) {
             context.stop();
             context = null;
