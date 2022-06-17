@@ -27,6 +27,7 @@ public class FileServer {
     }
 
     public void stop() {
+        LOG.info("Spring file server demo stopped");
         if (context != null) {
             context.stop();
             context = null;
