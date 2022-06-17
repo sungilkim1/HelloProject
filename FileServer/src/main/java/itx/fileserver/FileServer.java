@@ -38,7 +38,7 @@ public class FileServer {
     }
 
     public static void main(String[] args) {
-        LOG.info("Spring file server main2");
+        LOG.info("Spring file server main3");
         FileServer fileServer = new FileServer();
         fileServer.start(args);
     }
