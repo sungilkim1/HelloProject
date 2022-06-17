@@ -40,7 +40,7 @@ public class DataServiceProviderConfig {
     @Autowired
     public DataServiceProviderConfig(FileServerConfig fileServerConfig) throws IOException {
         this.fileServerConfig = fileServerConfig;
-        LOG.info("DataServiceProviderConfig: {}", fileServerConfig.getDataStorage());
+        LOG.info("DataServiceProviderConfig2: {}", fileServerConfig.getDataStorage());
         if (INMEMORY_DATA.equals(fileServerConfig.getDataStorage())) {
             this.fileAccessManagerService = new FileAccessManagerServiceInmemory(fileServerConfig);
             this.userManagerService = new UserManagerServiceInmemory(fileServerConfig);
