@@ -38,6 +38,7 @@ public class FileServer {
     }
 
     public static void main(String[] args) {
+        LOG.info("Spring file server main");
         FileServer fileServer = new FileServer();
         fileServer.start(args);
     }
