@@ -39,7 +39,7 @@ public class FileServer {
     }
 
     public static void main(String[] args) {
-        LOG.info("Spring file server main12");
+        LOG.info("Spring file server main14");
         FileServer fileServer = new FileServer();
         fileServer.start(args);
     }
