@@ -2,3 +2,4 @@ feature2
 featurer3
 feature4
 HelloProject-feature5
+HelloProject2-feature6
